@@ -1,0 +1,592 @@
+.mark {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  /* margin-right: 0.75rem; */
+  margin-left: 0.75rem;
+}
+
+.faith-about-area {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+}
+.faith-about-area .about-content {
+  text-align: center;
+}
+.faith-about-area .about-content img {
+  margin-bottom: 15px;
+}
+.faith-about-area .about-content h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 500;
+}
+.faith-about-area .about-content h6 {
+  color: #5a5a5a;
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+/*---------------------
+	Service Section
+-----------------------*/
+.services-section {
+  background: #f6f8f9;
+}
+
+.service-box h4 {
+  margin-bottom: 15px;
+}
+
+.service-box h4 i {
+  color: #dd3e3e;
+  margin-right: 10px;
+}
+
+.service-box p {
+  margin-bottom: 20px;
+}
+
+.service-box .s-readmore {
+  color: #b7b7b7;
+  font-size: 17px;
+}
+
+.service-box .s-readmore i {
+  color: #dd3e3e;
+}
+.spad {
+  padding: 100px 0;
+}
+/*---------------------
+	About Section
+-----------------------*/
+.about-content h2 {
+  margin-bottom: 30px;
+}
+
+.about-content .site-btn {
+  margin-top: 40px;
+}
+img {
+  max-width: 100%;
+}
+
+/* Buttons */
+.site-btn {
+  padding: 14px 23px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 2px;
+  background: #dd3e3e;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.site-btn:hover {
+  color: #fff;
+}
+
+.site-btn.sb-wide {
+  padding: 14px 35px;
+}
+
+.site-btn.sb-line {
+  background-color: transparent;
+  border: 2px solid #dd3e3e;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.site-btn.sb-light-line {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.site-btn.sb-full {
+  width: 100%;
+  display: block;
+}
+
+/*---------------------
+	About Page
+-----------------------*/
+.pastor {
+  text-align: center;
+  padding: 30px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0px 15px 60px rgba(76, 74, 74, 0.14);
+  box-shadow: 0px 15px 60px rgba(76, 74, 74, 0.14);
+  background-color: #ffffff;
+}
+
+.pastor .pastor-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto 28px;
+}
+
+.pastor h3 {
+  font-size: 20px;
+}
+
+.pastor p {
+  font-family: "Lora", serif;
+  font-style: italic;
+  margin-bottom: 0;
+  color: #dd3e3e;
+}
+.pastors-section {
+  background-color: #000;
+}
+
+/*---------------------
+	Helper CSS
+-----------------------*/
+.section-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-title.title-left {
+  text-align: left;
+}
+
+.section-title span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #dd3e3e;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: initial;
+}
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0;
+}
+
+/* Section Padding */
+
+.section-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-padding-100-0 {
+  padding-top: 100px;
+  padding-bottom: 1rem;
+  background-color: #fff;
+}
+
+.section-padding-0-100 {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.section-padding-100-70 {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+/* Section Heading */
+
+.section-heading {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin-bottom: 90px;
+}
+
+.section-heading img {
+  margin-bottom: 15px;
+}
+.section-heading h3 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.section-heading p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #a6a6a6;
+}
+
+/* =========Single blog area======= */
+
+.single-blog-area {
+  position: relative;
+  z-index: 1;
+  background-color: #eff4f6;
+}
+.single-blog-area .blog-thumbnail {
+  position: relative;
+  z-index: 1;
+}
+.single-blog-area .blog-thumbnail img {
+  width: 100%;
+}
+.single-blog-area .blog-thumbnail .post-date a {
+  position: absolute;
+  width: 195px;
+  height: 35px;
+  top: 0;
+  background-color: red;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+  left: 50%;
+}
+.single-blog-area .blog-thumbnail .post-date a:hover,
+.single-blog-area .blog-thumbnail .post-date a:focus {
+  background-color: black;
+}
+
+.post-date a {
+  position: absolute;
+  width: 195px;
+  height: 35px;
+  top: 0;
+  background-color: bleu;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+  left: 50%;
+}
+.single-blog-area .blog-content {
+  padding: 40px 25px;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+.single-blog-area .blog-content .blog-title {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 15px;
+}
+.single-blog-area .blog-content .blog-title:hover {
+  color: red;
+}
+.single-blog-area .blog-content p {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.single-blog-area .blog-content .readmore-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+  border-bottom: 1px solid red;
+}
+.single-blog-area .blog-content .readmore-btn:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+.single-blog-area:hover,
+.single-blog-area:focus {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+.single-blog-area:hover .blog-content,
+.single-blog-area:focus .blog-content {
+  border-bottom-color: red;
+  border-right-color: red;
+  border-left-color: red;
+}
+.post-date a {
+  text-decoration: none;
+}
+.blog-content a {
+  text-decoration: none;
+}
+.s-readmore {
+  color: grey;
+}
+.blog-title {
+  color: black;
+  font-weight: 700;
+}
+
+.faith-about-area .about-content h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-top .counter {
+    margin: 0 15px;
+  }
+  .main-menu ul li a,
+  .header-section .site-btn {
+    margin-left: 10px;
+  }
+  .event-section .counter {
+    margin: 0 10px;
+  }
+  .event-list .el-metas {
+    padding-top: 25px;
+  }
+}
+
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top-nav-section .social {
+    margin-top: 30px;
+  }
+  .top-nav-section .social a {
+    margin-right: 20px;
+  }
+  .user-input {
+    padding-top: 30px;
+  }
+  .site-logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .main-menu {
+    float: left;
+  }
+  .main-menu ul li:first-child a {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .main-menu ul li a {
+    margin-left: 10px;
+  }
+  .header-section .site-btn {
+    margin-left: 10px;
+  }
+  .event-info {
+    margin-bottom: 40px;
+  }
+  .event-section .counter .counter-item:first-child {
+    padding-left: 0;
+  }
+  .about-content {
+    margin-bottom: 40px;
+  }
+  .sermon-left-bg {
+    display: none;
+  }
+  .event-more {
+    text-align: left;
+  }
+  .event-more .site-btn {
+    margin-bottom: 40px;
+  }
+  .event-list .el-thubm {
+    margin-bottom: 30px;
+  }
+  .donate-card {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .blog-item {
+    margin-bottom: 40px;
+  }
+  .newsletter-section {
+    text-align: center;
+  }
+  .newsletter-form {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .pastor {
+    margin-bottom: 40px;
+  }
+  .widget {
+    padding-left: 0;
+  }
+  .sidebar {
+    padding-top: 50px;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+  .site-logo {
+    display: block;
+    margin-right: 60px;
+  }
+  .header-section .site-btn {
+    margin-left: 0;
+    float: none;
+    margin-top: 20px;
+  }
+  .nav-switch {
+    position: absolute;
+    right: 30px;
+    font-size: 30px;
+    color: #232d37;
+    top: 30px;
+    display: block;
+    cursor: pointer;
+  }
+  .main-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 111;
+    background: #fff;
+    width: 100%;
+    padding-top: 0;
+    padding: 0 20px;
+    -webkit-box-shadow: 0px 40px 50px rgba(125, 125, 125, 0.13);
+    box-shadow: 0px 40px 50px rgba(125, 125, 125, 0.13);
+  }
+  .main-menu ul li {
+    display: block;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .main-menu ul li a {
+    display: block;
+  }
+  .main-menu ul li {
+    padding: 5px 0;
+  }
+  .hero-section .hero-content h2 {
+    font-size: 45px;
+  }
+  .event-info {
+    margin-bottom: 40px;
+  }
+  .event-section .site-btn {
+    top: 0;
+    margin-top: 30px;
+  }
+  .event-section .counter {
+    margin-left: 0;
+    display: block;
+  }
+  .event-section .counter .counter-item:first-child {
+    padding-left: 0;
+  }
+  .event-section .counter .counter-item {
+    padding: 5px 13px;
+  }
+  .about-content {
+    margin-bottom: 40px;
+  }
+  .service-box {
+    margin-bottom: 30px;
+  }
+  .sermon-content {
+    padding-left: 0;
+  }
+  .sermon-left-bg {
+    display: none;
+  }
+  .event-more {
+    text-align: left;
+  }
+  .event-more .site-btn {
+    margin-bottom: 40px;
+  }
+  .event-list .el-metas {
+    padding-top: 30px;
+  }
+  .event-list .el-thubm {
+    margin-bottom: 30px;
+  }
+  .donate-card {
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 25px 25px;
+  }
+  .blog-item {
+    margin-bottom: 40px;
+  }
+  .newsletter-section {
+    text-align: center;
+  }
+  .newsletter-form {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .footer-top-section {
+    padding-bottom: 0;
+  }
+  .footer-top-section .map-area {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .copyright,
+  .footer-section .social {
+    text-align: center;
+  }
+  .footer-section .social {
+    padding-top: 15px;
+  }
+  .pastor {
+    margin-bottom: 40px;
+  }
+  .widget {
+    padding-left: 0;
+  }
+  .sidebar {
+    padding-top: 50px;
+  }
+  .single-post .social-share {
+    text-align: left;
+    padding-top: 30px;
+  }
+}
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+  .hero-section .hero-content h2 {
+    font-size: 35px;
+  }
+  .pagination-area p {
+    float: none;
+    padding-top: 15px;
+  }
+  .blog-item .bi-content .bi-author {
+    margin-right: 20px;
+  }
+  .blog-item .bi-content .bi-cata {
+    float: none;
+    margin-top: 10px;
+  }
+  .newsletter-form input {
+    padding-right: 25px;
+  }
+  .newsletter-form .nl-send-btn {
+    position: relative;
+    padding: 13px 25px;
+    margin-top: 20px;
+  }
+}

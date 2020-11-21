@@ -1,0 +1,31 @@
+
+
+
+<div class="haut"></div>
+<mat-card class="">
+   <mat-card-content>
+      <form class="my-form">
+ 
+            <ngb-alert type="danger" *ngIf="!staticAlertClosed" (close)="staticAlertClosed = true"><h6>Incorect username or password!</h6></ngb-alert>
+         <mat-form-field class="full-width">
+            <mat-label>Username</mat-label>
+            <input  matInput  placeholder="Username" name="username" [(ngModel)]="credential.username" required="required" autofocus="autofocus">
+         </mat-form-field>
+         <mat-form-field class="full-width">
+            <mat-label>Password</mat-label>
+            <input  matInput  [type]="!hide ? 'password' : 'text'" placeholder="Password" name="password" [(ngModel)]="credential.password" required="required" autofocus="autofocus">
+            <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+         </mat-form-field>
+      </form>
+       <div class="ml-0"><a routerLink="/forgot">Forgot password?</a></div>
+        <div class="mr-2">Don't you have an account?<a routerLink="/register">Register</a></div>
+   </mat-card-content>
+  
+
+   <mat-card-actions>
+      <button (click)="login()">Login</button>
+   </mat-card-actions>
+</mat-card>
+<ngx-spinner>  
+   <p style="color: white">Please Wait... </p>  
+</ngx-spinner>

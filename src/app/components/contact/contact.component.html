@@ -1,0 +1,114 @@
+<app-nav></app-nav>
+<app-carous></app-carous>
+
+<div class="contact">
+  <div class="container">
+    <div class="row">
+      <!-- Contact Info -->
+      <div class="col-lg-6">
+        <div class="contact_info">
+          <div
+            class="contact_title animate__animated animate__lightSpeedInLeft family"
+          >
+            Contactez-nous
+          </div>
+          <div class="contact_info_content">
+            <ul>
+              <li>
+                <div>
+                  <i aria-hidden="true"
+                    ><fa-icon
+                      [icon]="faMapMarker"
+                      [styles]="{ color: 'red' }"
+                    ></fa-icon
+                  ></i>
+                </div>
+                <span>567 Vile de paix - 456 paix du christ - 4567</span>
+              </li>
+              <li>
+                <div>
+                  <i aria-hidden="true"
+                    ><fa-icon
+                      [icon]="faPhone"
+                      [styles]="{ color: 'red' }"
+                    ></fa-icon
+                  ></i>
+                </div>
+                <span>+00 24 800 8080</span>
+              </li>
+              <li>
+                <div>
+                  <i aria-hidden="true"
+                    ><fa-icon
+                      [icon]="faEnvelope"
+                      [styles]="{ color: 'red' }"
+                    ></fa-icon
+                  ></i>
+                </div>
+                <span>info@omftogo.org</span>
+              </li>
+              <li>
+                <div>
+                  <i aria-hidden="true"
+                    ><fa-icon
+                      [icon]="faGlobe"
+                      [styles]="{ color: 'red' }"
+                    ></fa-icon
+                  ></i>
+                </div>
+                <span>www.ofmtogo.org</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6 contact_form_col">
+        <div class="contact_form">
+          <div
+            class="contact_title animate__animated animate__lightSpeedInRight animate__delay-2s family"
+          >
+            Laissez-nous un message
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact_form_container">
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    class="form_input"
+                    placeholder="Votre nom"
+                    required="required"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="email"
+                    class="form_input email_input"
+                    placeholder="Votre email"
+                    required="required"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form_text"
+                    placeholder="Votre Message"
+                    required="required"
+                  ></textarea>
+                  <button type="submit" class="form_submit_button">
+                    Envoyer
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

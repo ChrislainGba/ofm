@@ -1,0 +1,30 @@
+mat-card {
+  max-width: 400px;
+  margin: auto auto;
+  text-align: center;
+}
+
+mat-form-field {
+  display: block;
+}
+
+button {
+  color: #fff;
+  background: #f82249;
+  padding: 7px 22px;
+  border: 2px solid #f82249;
+  transition: all ease-in-out 0.3s;
+  font-weight: 800;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
+  border-radius: 50px;
+}
+.haut {
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: #f82249;
+}

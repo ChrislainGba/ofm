@@ -1,0 +1,190 @@
+/*=========== event_date_area css ==========*/
+.event_date_area {
+  background: light_blue;
+  padding: 100px 0px;
+}
+.flex {
+  flex: 1;
+  justify-content: center;
+  align-self: center;
+}
+.evet_location {
+  color: #fff;
+}
+.evet_location h3 {
+  padding-bottom: 5px;
+}
+.evet_location p {
+  margin-bottom: 0px;
+}
+.evet_location p span {
+  padding-right: 12px;
+}
+.event_time {
+  color: #fff;
+  text-align: center;
+}
+.event_time h4 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.event_time .timer {
+  background: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  padding: 27px 0px;
+}
+.event_time .timer .timer__section {
+  float: left;
+  overflow: hidden;
+  color: #fff;
+  width: calc(100% / 4);
+}
+.event_time .timer .timer__section .timer__number {
+  font: 600 36px/45px;
+}
+.event_time .timer .timer__section .timer__label {
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.about_area img {
+  max-width: 100%;
+}
+.about_content {
+  padding-right: 70px;
+}
+.about_content p {
+  padding: 15px 0px 25px;
+}
+.features_item {
+  padding: 73px 45px 80px 60px;
+  color: #fff;
+  background: light_blue;
+}
+.features_item + .features_item {
+  border-left: 1px solid #fff;
+}
+.features_item:nth-child(even) {
+  background: #04091e;
+}
+.features_item h3 {
+  margin-bottom: 20px;
+}
+.features_item p {
+  padding-bottom: 25px;
+}
+/*========== sermons_work_area css ===========*/
+.sermons_work_area {
+  background: #f9f9ff;
+}
+.sermons_slider .sermons_image p {
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+.sermons_slider .sermons_content {
+  padding-right: 30px;
+}
+.sermons_slider .owl-dots {
+  text-align: right;
+  position: absolute;
+  right: 290px;
+  bottom: 0;
+}
+.sermons_slider .owl-dots .owl-dot {
+  width: 14px;
+  height: 14px;
+  background: #eee;
+  display: inline-block;
+  margin: 0px 5px;
+}
+.sermons_slider .owl-dots .owl-dot.active {
+  background: light_blue;
+}
+.sermons_category {
+  padding: 10px 0px 30px;
+}
+.sermons_category li {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.sermons_category li span {
+  color: black;
+  font-weight: 400;
+}
+.sermons_category li a {
+  color: light_blue;
+}
+.sermons_category li i {
+  padding-right: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+/*========== event_blog_area css ==========*/
+.event_title {
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  font-weight: 600;
+  padding-top: 20px;
+  transition: all 0.3s linear;
+}
+.event_title:hover {
+  color: light_blue;
+}
+.event_post img {
+  max-width: 100%;
+}
+.event_post .event_category {
+  padding-bottom: 20px;
+}
+.event_category li {
+  padding-bottom: 8px;
+}
+.event_category li i {
+  font-weight: 600;
+  color: dark;
+}
+.ministries_info {
+  margin-bottom: -44px;
+}
+.ministries_info .event_post {
+  margin-bottom: 44px;
+}
+.ministries_info .event_post p {
+  padding-right: 50px;
+  padding-top: 10px;
+}
+/*========== event_two css ==========*/
+.event_two {
+  margin-bottom: -50px;
+}
+.event_two .event_post {
+  margin-bottom: 50px;
+}
+/*============ event_details_area css ==========*/
+.event_details_area .event_category {
+  padding: 0px;
+}
+.event_details {
+  padding-top: 16px;
+}
+.event_details p {
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.spad {
+  padding: 100px 0;
+}
